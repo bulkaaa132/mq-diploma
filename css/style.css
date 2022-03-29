@@ -530,7 +530,7 @@ button {
 
 .our-products-item {
     display: flex;
-    width: 345px;
+    width: 30%;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -546,7 +546,7 @@ button {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    width: 300px;
+    width: 100%;
     padding: 30px 0 10px;
     outline: 3px solid #a7973d;
     outline-offset: 20px;
@@ -854,6 +854,7 @@ button {
     }
     .our-products-item {
         min-height: 343px;
+        width: 45%;
         margin-top: 30px;
     }
     .copyright {
